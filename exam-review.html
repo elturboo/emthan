@@ -92,10 +92,14 @@
                 </div>
                 <img src="./images/banners/exam-form.png" class="img-fluid" alt="">
             </div>
+            <div class="total-degree">
+                <h3>النتيجة <span>80%</span></h3>
+                <h3>مجموع الدرجات <span>50/70</span></h3>
+                <button> اعادة الاختبار</button>
+            </div>
+            
             <form action="">
-
-          
-            <div class="question-list">
+            <div class="question-list answer-true">
                 <div class="degree">
                     <h5>7</h5>
                     <span>درجات</span>
@@ -110,8 +114,8 @@
                 </div>
                 <div class="row ans-row">
                     <div class="col-sm-3">
-                        <input type="radio" id="answerOne" name="question-one">
-                        <label for="answerOne">اجابة رقم واحد</label>
+                        <input type="radio" id="answerOne" name="question-one" checked>
+                        <label class="label-true"  for="answerOne">اجابة رقم واحد</label>
                     </div>
                     <div class="col-sm-3">
                         <input type="radio" id="answerTwo" name="question-one">
@@ -128,7 +132,7 @@
                 </div>
             </div>
 
-            <div class="question-list">
+            <div class="question-list answer-false">
               <div class="degree">
                   <h5>7</h5>
                   <span>درجات</span>
@@ -153,12 +157,12 @@
                       <label for="answerOne">اجابة رقم واحد</label>
                   </div>
                   <div class="col-sm-3">
-                      <input type="radio" id="answerTwo" name="question-one">
-                      <label for="answerTwo">اجابة رقم اثنين</label>
+                      <input type="radio" id="answerTwo" name="question-two" checked>
+                      <label class="label-false" for="answerTwo">اجابة رقم اثنين</label>
                   </div>
                   <div class="col-sm-3">
                       <input type="radio" id="answerThree" name="question-one">
-                      <label for="answerThree" >اجابة رقم ثلاثة</label>
+                      <label class="label-true" for="answerThree" >اجابة رقم ثلاثة</label>
                   </div>
                   <div class="col-sm-3">
                       <input type="radio" id="answerFour" name="question-one">
@@ -185,7 +189,7 @@
               <div class="row ans-row">
                   <div class="col-sm-3">
                       <input type="radio" id="answerOne" name="question-one">
-                      <label for="answerOne">اجابة رقم واحد</label>
+                      <label  for="answerOne">اجابة رقم واحد</label>
                   </div>
                   <div class="col-sm-3">
                       <input type="radio" id="answerTwo" name="question-one">

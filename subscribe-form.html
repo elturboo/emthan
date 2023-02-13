@@ -53,7 +53,7 @@
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
+                                <a class="nav-link" aria-current="page" href="index.html">الرئيسية</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">من نحن</a>
@@ -64,9 +64,15 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">سجل الاختبارات</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="login.html">التسجيل</a>
-                            </li>
+                            <li class="nav-item  dropdown">
+                                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  حسابي
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#">الملف الشخصي</a></li>
+                                  <li><a class="dropdown-item" href="#">تسجيل خروج</a></li>
+                                </ul>
+                              </li>
 
                         </ul>
                         <div class="div-social">
@@ -90,88 +96,63 @@
         <!-- end header -->
 
         <!-- start exam -->
-        <section class="exam">
+        <section class="profile">
             <div class="container">
-                <img src="./images/banners/exam-banner.png" class="banner" alt="">
-
-                <div class="material-filter owl-carousel owl-theme d-flex justify-content-center">
-                    <!-- lop from here -->
-                    <div class="item"><button>التجويد</button></div>
-                    <!-- to here -->
-                    <div class="item active"><button>الدراسات الاسلامية</button></div>
-                    <div class="item"><button>اللغة العربية</button></div>
-                    <div class="item"><button>الرياضيات</button></div>
-                    <div class="item"><button>العلوم</button></div>
-                    <div class="item"><button>اللغة الانجليزية</button></div>
-                    <div class="item"><button>التربية الفنية</button></div>
-                    <div class="item"><button>الرياضيات</button></div>
-                    <div class="item"><button>العلوم</button></div>
-                    <div class="item"><button>اللغة الانجليزية</button></div>
-                    <div class="item"><button>التربية الفنية</button></div>
-      
+                <div class="banner">
+                    <div>
+                        <h3>حسابي</h3>
+                    </div>
                 </div>
+
 
                 <!-- start content -->
                 <div class="row">
                     <div class="col-sm-3">
                         <ul class="sidebar list-unstyled">
-                            <li class="active">الفصل الاول</li>
-                            <li><a href="#"> الفصل الثاني </a></li>
-                            <li><a href="#"> الفصل الثالث </a></li>
-                            <li><a href="#"> الفصل الرابع </a></li>
-                            <li><a href="#"> الفصل الخامس </a></li>
-                            <li><a href="#"> الفصل السادس </a></li>
-                            <li><a href="#"> الفصل السابع </a></li>
-                            <li><a href="#"> الفصل الثامن </a></li>
-                            <li><a href="#"> اختبارات شاملة </a> </li>
+                            <li class="active"><a href="#"> الاشتراك </a></li>
+                            <li><a href="#">الصفحة الشخصية</a></li>
+                            <li><a href="#">تغيير كلمة المرور</a></li>
+                            <li><a href="#">الشروط و الاحكام</a></li>
+                            <li><a href="#">خروج</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-9">
-                        <div class="exam-list-box">
-                            <h5>الاختبار الاول</h5>
-                            <i class="fa-solid fa-circle-check"></i>
-                            <span class="spc-badge">النتيجة 80%</span>
-                            <a href="#"><button class="btn-sec">نموذج الاجابة</button></a>
-                           <a href="#"> <button class="third-btn">اعد الاختبار</button></a>
+                        
+                       <div class="subscribe-form">
+                        <h4> <span>50 ر.س</span> اشتراك سنوي</h4>
+                        <img src="./images/profile/payment.png" class="img-fluid payment" alt="">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <form action="">
+                                    <input type="number" placeholder="رقم البطاقة">
+                                    <label for="">تاريخ الانتهاء</label>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <select name="" id="">
+                                            <option hidden>شهر</option>
+                                            <option value="1">1</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-6">
+                                            <select name="" id="">
+                                            <option hidden>سنة</option>
+                                            <option value="1">1</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <input type="number" placeholder="رمز تحقق البطاقة">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <a href="#"><button class="main-btn">تاكيد</button></a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#"><button class="sec-btn">رجوع</button></a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
-                        <div class="exam-list-box">
-                            <h5>الاختبار الثاني</h5>
-                            <a href="#"><button class="main-btn"> ابدا الان</button></a>
-                        </div>
-                        <div class="exam-list-box">
-                            <h5>الاختبار الثاني</h5>
-                            <a href="#"><button class="main-btn"> ابدا الان</button></a>
-                        </div>
-                        <div class="exam-list-box">
-                            <h5>الاختبار الثاني</h5>
-                            <a href="#"><button class="main-btn"> ابدا الان</button></a>
-                        </div>
-                        <div class="exam-list-box">
-                            <h5>الاختبار الثاني</h5>
-                            <a href="#"><button class="main-btn"> ابدا الان</button></a>
-                        </div>
-                        <div class="exam-list-box">
-                            <h5>الاختبار الثاني</h5>
-                            <a href="#"><button class="main-btn"> ابدا الان</button></a>
-                        </div>
-
-                        <nav aria-label="Page navigation example ">
-                            <ul class="pagination justify-content-center">
-                              <li class="page-item">
-                                <a class="page-link" href="#" aria-label="Previous">
-                                  <span aria-hidden="true">&laquo;</span>
-                                </a>
-                              </li>
-                              <li class="page-item"><a class="page-link active" href="#">1</a></li>
-                              <li class="page-item"><a class="page-link" href="#">2</a></li>
-                              <li class="page-item"><a class="page-link" href="#">3</a></li>
-                              <li class="page-item">
-                                <a class="page-link" href="#" aria-label="Next">
-                                  <span aria-hidden="true">&raquo;</span>
-                                </a>
-                              </li>
-                            </ul>
-                          </nav>
+                       </div>
                         
                     </div>
                 </div>

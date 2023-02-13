@@ -70,7 +70,7 @@ a {
   padding: 60px 0;
 }
 
-.transition, nav .social img, .slider .carousel-item .caption-box button, .services .serv-box a.arrow, footer .social img, .login .login-box button, .exam .material-filter .item button, .exam .material-filter .item.active button, .exam .exam-list-box button.main-btn, .exam .exam-list-box button.btn-sec, .exam .exam-list-box button.third-btn {
+.transition, nav .social img, .slider .carousel-item .caption-box button, .services .serv-box a.arrow, footer .social img, .login .login-box button, .exam .material-filter .item button, .exam .material-filter .item.active button, .exam .exam-list-box button.main-btn, .exam .exam-list-box button.btn-sec, .exam .exam-list-box button.third-btn, .form-exam button.result, .form-exam .total-degree button, .profile .subscribe-list button, .profile .subscribe-form button.main-btn, .profile .subscribe-form button.sec-btn, .profile .profile-form button {
   -webkit-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
@@ -707,6 +707,7 @@ ul.sidebar {
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 25px;
+  margin-bottom: 30px;
   width: 80%;
   overflow-x: visible;
 }
@@ -717,10 +718,19 @@ ul.sidebar li {
   width: 125%;
 }
 
+ul.sidebar li a {
+  color: #000B79;
+  font-size: 18px;
+}
+
 ul.sidebar li.active {
   background: #FFB347;
   color: #fff;
   border-radius: 10px;
+}
+
+ul.sidebar li.active a {
+  color: #fff;
 }
 
 .pagination {
@@ -781,7 +791,7 @@ ul.sidebar li.active {
 .form-exam .question-list {
   border: 2px solid #E1E0E8;
   border-radius: 15px;
-  padding: 10px 20px;
+  padding: 15px 20px;
   margin-bottom: 20px;
   position: relative;
 }
@@ -852,6 +862,372 @@ ul.sidebar li.active {
 
 .form-exam .question-list label {
   cursor: pointer;
+}
+
+.form-exam .question-list .ans-row {
+  -webkit-padding-start: 60px;
+          padding-inline-start: 60px;
+  margin-top: 15px;
+}
+
+.form-exam .question-list video {
+  height: 250px;
+  width: 450px;
+}
+
+.form-exam .question-list img.question-img {
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.form-exam button.result {
+  background: #6829B3;
+  border-radius: 25px;
+  color: #fff;
+  border: 3px solid #441181;
+  padding: 9px 50px;
+  font-size: 18px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.form-exam button.result:hover {
+  background: transparent;
+  color: #6829B3;
+}
+
+.form-exam .answer-true .degree {
+  background: #3ACB10;
+}
+
+.form-exam .answer-true input[type="radio"] {
+  accent-color: #3ACB10;
+}
+
+.form-exam .answer-false .degree {
+  background: #f00;
+}
+
+.form-exam .answer-false input[type="radio"] {
+  accent-color: #f00;
+}
+
+.form-exam .label-true {
+  color: #3ACB10;
+}
+
+.form-exam .label-false {
+  color: #f00;
+}
+
+.form-exam .total-degree {
+  height: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 25px;
+  background: #f1eeff;
+  padding: 20px 40px;
+  margin-bottom: 30px;
+}
+
+.form-exam .total-degree h3 {
+  margin: 0;
+  font-size: 30px;
+  color: #000;
+}
+
+.form-exam .total-degree h3 span {
+  font-weight: 700;
+  -webkit-margin-start: 20px;
+          margin-inline-start: 20px;
+}
+
+.form-exam .total-degree button {
+  background: #6829B3;
+  border-radius: 25px;
+  color: #fff;
+  border: 3px solid #441181;
+  padding: 9px 30px;
+  font-size: 18px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.form-exam .total-degree button:hover {
+  background: transparent;
+  color: #6829B3;
+}
+
+.student-log .banner {
+  width: 100%;
+  margin-bottom: 30px;
+  height: 160px;
+  padding: 10px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FFB347;
+  border: 7px solid #f7a026;
+  border-radius: 25px;
+}
+
+.student-log .banner h3 {
+  color: #000B79;
+  font-weight: 700;
+  margin: 0;
+  font-size: 36px;
+}
+
+.profile .banner {
+  width: 100%;
+  margin-bottom: 30px;
+  height: 160px;
+  padding: 10px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FFB347;
+  border: 7px solid #f7a026;
+  border-radius: 25px;
+}
+
+.profile .banner h3 {
+  color: #000B79;
+  font-weight: 700;
+  margin: 0;
+  font-size: 36px;
+}
+
+.profile .subscribe-list {
+  padding: 20px;
+  height: 120px;
+  border: 3px solid #E1E0E8;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile .subscribe-list h4 {
+  color: #000B79;
+  font-size: 26px;
+}
+
+.profile .subscribe-list h4 span {
+  color: #FFB347;
+  font-weight: 700;
+  font-size: 36px;
+  -webkit-margin-end: 20px;
+          margin-inline-end: 20px;
+}
+
+.profile .subscribe-list button {
+  background: #6829B3;
+  border-radius: 25px;
+  color: #fff;
+  border: 3px solid #441181;
+  padding: 9px 50px;
+  font-size: 18px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.profile .subscribe-list button:hover {
+  background: transparent;
+  color: #6829B3;
+}
+
+.profile .subscribe-form {
+  border: 3px solid #E1E0E8;
+  padding: 20px 40px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+
+.profile .subscribe-form h4 {
+  color: #000B79;
+  font-size: 26px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 30px;
+}
+
+.profile .subscribe-form h4 span {
+  color: #FFB347;
+  font-weight: 700;
+  font-size: 36px;
+  -webkit-margin-end: 20px;
+          margin-inline-end: 20px;
+}
+
+.profile .subscribe-form img.payment {
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.profile .subscribe-form input {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 12px 10px;
+  background: transparent;
+  border-radius: 5px;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.profile .subscribe-form label {
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.profile .subscribe-form select {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+  background: transparent;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.profile .subscribe-form button.main-btn {
+  background: #6829B3;
+  border-radius: 25px;
+  color: #fff;
+  width: 100%;
+  border: 3px solid #441181;
+  padding: 9px 50px;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.profile .subscribe-form button.main-btn:hover {
+  background: transparent;
+  color: #6829B3;
+}
+
+.profile .subscribe-form button.sec-btn {
+  background: #FFB347;
+  border-radius: 25px;
+  width: 100%;
+  color: #fff;
+  border: 3px solid #f7a026;
+  padding: 9px 50px;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.profile .subscribe-form button.sec-btn:hover {
+  background: transparent;
+  color: #FFB347;
+}
+
+.profile .profile-form {
+  border: 3px solid #E1E0E8;
+  padding: 20px 40px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+
+.profile .profile-form img.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-shadow: 0 0 9px #ccc;
+          box-shadow: 0 0 9px #ccc;
+}
+
+.profile .profile-form ul.profile-list li {
+  padding: 14px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile .profile-form ul.profile-list li i {
+  color: #FFB347;
+  -webkit-margin-end: 20px;
+          margin-inline-end: 20px;
+  font-size: 22px;
+}
+
+.profile .profile-form ul.profile-list li h4 {
+  font-size: 20px;
+  color: #000;
+}
+
+.profile .profile-form button {
+  background: #6829B3;
+  border-radius: 25px;
+  color: #fff;
+  width: 60%;
+  border: 3px solid #441181;
+  padding: 9px 50px;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.profile .profile-form button:hover {
+  background: transparent;
+  color: #6829B3;
+}
+
+.profile .profile-form input {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  background: transparent;
+  border-radius: 25px;
+  padding: 10px;
+  width: 100%;
+}
+
+.profile .profile-form h2 {
+  color: #6829B3;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.profile .profile-form p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #777;
+  margin-bottom: 20px;
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -984,6 +1360,9 @@ input[type=number] {
   }
   .form-exam .banner img {
     height: 52px;
+  }
+  .profile .subscribe-form {
+    padding: 20px 15px;
   }
 }
 
