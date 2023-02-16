@@ -29,7 +29,7 @@ body {
     font-family: 'Cairo', sans-serif;
     overflow-x: hidden;
     position: relative;
-    
+
 }
 
 a {
@@ -729,6 +729,7 @@ ul.sidebar {
         padding: 10px;
         color: $mainColor;
         width: 125%;
+
         a {
             color: $mainColor;
             font-size: 18px;
@@ -738,6 +739,7 @@ ul.sidebar {
             background: $secColor;
             color: #fff;
             border-radius: 10px;
+
             a {
                 color: #fff;
             }
@@ -804,6 +806,7 @@ ul.sidebar {
         padding: 15px 20px;
         margin-bottom: 20px;
         position: relative;
+
         span.number {
             width: 40px;
             height: 40px;
@@ -814,13 +817,16 @@ ul.sidebar {
             border-radius: 50%;
             display: inline-block;
         }
+
         .ques-list {
             gap: 20px;
             width: 90%;
+
             p {
                 line-height: 1.6;
             }
         }
+
         .degree {
             position: absolute;
             left: 40px;
@@ -834,17 +840,20 @@ ul.sidebar {
             border-radius: 0 0 5px 5px;
             justify-content: center;
             align-items: center;
+
             h5 {
                 font-weight: 700;
                 font-size: 24px;
                 margin: 0;
             }
+
             span {
                 font-size: 14px;
             }
         }
+
         input[type="radio"] {
-            accent-color:$secColor;
+            accent-color: $secColor;
             height: 18px;
             width: 18px;
             vertical-align: middle;
@@ -852,23 +861,29 @@ ul.sidebar {
             cursor: pointer;
 
         }
+
         label {
             cursor: pointer;
         }
+
         .ans-row {
             padding-inline-start: 60px;
             margin-top: 15px;
         }
+
         video {
             height: 250px;
             width: 450px;
         }
+
         img.question-img {
-            height: 250px;
+            max-height: 250px;
+            width: 50%;
             margin-bottom: 20px;
         }
-       
+
     }
+
     button.result {
         background: $thirdColor;
         border-radius: 25px;
@@ -893,26 +908,32 @@ ul.sidebar {
         .degree {
             background: #3ACB10;
         }
+
         input[type="radio"] {
             accent-color: #3ACB10;
         }
-        
+
     }
+
     .answer-false {
         .degree {
             background: #f00;
         }
+
         input[type="radio"] {
             accent-color: #f00;
         }
-        
+
     }
+
     .label-true {
         color: #3ACB10;
     }
+
     .label-false {
         color: #f00;
     }
+
     .total-degree {
         height: 140px;
         display: flex;
@@ -922,15 +943,18 @@ ul.sidebar {
         background: #f1eeff;
         padding: 20px 40px;
         margin-bottom: 30px;
+
         h3 {
             margin: 0;
             font-size: 30px;
             color: #000;
+
             span {
                 font-weight: 700;
                 margin-inline-start: 20px;
             }
         }
+
         button {
             background: $thirdColor;
             border-radius: 25px;
@@ -941,7 +965,7 @@ ul.sidebar {
             margin-top: 40px;
             margin-bottom: 40px;
             @extend .transition;
-    
+
             &:hover {
                 background: transparent;
                 color: $thirdColor;
@@ -997,6 +1021,7 @@ ul.sidebar {
         }
 
     }
+
     .subscribe-list {
         padding: 20px;
         height: 120px;
@@ -1008,9 +1033,11 @@ ul.sidebar {
         display: flex;
         justify-content: space-between;
         align-items: center;
+
         h4 {
             color: $mainColor;
             font-size: 26px;
+
             span {
                 color: $secColor;
                 font-weight: 700;
@@ -1029,7 +1056,7 @@ ul.sidebar {
             margin-top: 40px;
             margin-bottom: 40px;
             @extend .transition;
-    
+
             &:hover {
                 background: transparent;
                 color: $thirdColor;
@@ -1037,17 +1064,20 @@ ul.sidebar {
         }
 
     }
+
     .subscribe-form {
         border: 3px solid #E1E0E8;
         padding: 20px 40px;
         border-radius: 15px;
         margin-bottom: 40px;
+
         h4 {
             color: $mainColor;
             font-size: 26px;
             padding-bottom: 20px;
             border-bottom: 2px solid #ccc;
             margin-bottom: 30px;
+
             span {
                 color: $secColor;
                 font-weight: 700;
@@ -1055,10 +1085,12 @@ ul.sidebar {
                 margin-inline-end: 20px;
             }
         }
+
         img.payment {
             height: 40px;
             margin-bottom: 20px;
         }
+
         input {
             width: 100%;
             border: 1px solid #ccc;
@@ -1068,12 +1100,14 @@ ul.sidebar {
             text-align: right;
             margin-bottom: 20px;
         }
+
         label {
             color: #000;
             font-weight: 700;
             margin-bottom: 5px;
             font-size: 14px;
         }
+
         select {
             width: 100%;
             border: 1px solid #ccc;
@@ -1082,6 +1116,7 @@ ul.sidebar {
             margin-bottom: 30px;
             border-radius: 5px;
         }
+
         button.main-btn {
             background: $thirdColor;
             border-radius: 25px;
@@ -1093,12 +1128,13 @@ ul.sidebar {
             margin-top: 20px;
             margin-bottom: 20px;
             @extend .transition;
-    
+
             &:hover {
                 background: transparent;
                 color: $thirdColor;
             }
         }
+
         button.sec-btn {
             background: $secColor;
             border-radius: 25px;
@@ -1110,18 +1146,20 @@ ul.sidebar {
             margin-top: 20px;
             margin-bottom: 20px;
             @extend .transition;
-    
+
             &:hover {
                 background: transparent;
                 color: $secColor;
             }
         }
     }
+
     .profile-form {
         border: 3px solid #E1E0E8;
         padding: 20px 40px;
         border-radius: 15px;
-        margin-bottom: 40px; 
+        margin-bottom: 40px;
+
         img.profile-pic {
             width: 200px;
             height: 200px;
@@ -1129,22 +1167,26 @@ ul.sidebar {
             object-fit: cover;
             box-shadow: 0 0 9px #ccc;
         }
+
         ul.profile-list {
             li {
                 padding: 14px 0;
                 display: flex;
+
                 // align-items: center;
                 i {
                     color: $secColor;
                     margin-inline-end: 20px;
                     font-size: 22px;
                 }
+
                 h4 {
                     font-size: 20px;
                     color: #000;
                 }
             }
         }
+
         button {
             background: $thirdColor;
             border-radius: 25px;
@@ -1156,12 +1198,13 @@ ul.sidebar {
             margin-top: 20px;
             margin-bottom: 20px;
             @extend .transition;
-    
+
             &:hover {
                 background: transparent;
                 color: $thirdColor;
             }
         }
+
         input {
             border: 1px solid #ccc;
             margin-bottom: 20px;
@@ -1178,17 +1221,19 @@ ul.sidebar {
             margin-bottom: 20px;
 
         }
+
         p {
             font-size: 16px;
             line-height: 1.8;
             color: #777;
             margin-bottom: 20px;
-            
+
         }
     }
 
 
 }
+
 // end profile
 
 /* Chrome, Safari, Edge, Opera */
@@ -1340,8 +1385,94 @@ input[type=number] {
     .form-exam .banner img {
         height: 52px;
     }
+
     .profile .subscribe-form {
         padding: 20px 15px;
+    }
+
+    .form-exam .question-list video {
+        width: 100%;
+    }
+
+    .form-exam .question-list {
+
+        padding: 10px 10px;
+    }
+
+    .form-exam .question-list .degree {
+        position: absolute;
+        left: 10px;
+        top: -2px;
+        height: 55px;
+        width: 50px;
+
+    }
+
+    .form-exam .question-list .ques-list {
+        gap: 8px;
+        width: 83%;
+    }
+
+    .ans-row .col-sm-3 {
+        margin-bottom: 10px;
+    }
+
+    .form-exam .question-list .ans-row {
+        padding-inline-start: 47px;
+    }
+
+    .form-exam .question-list img.question-img {
+        max-height: 250px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .form-exam .total-degree {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 190px;
+    }
+
+    .form-exam .total-degree h3 {
+        font-size: 22px;
+        line-height: 1.8;
+    }
+
+    .form-exam .total-degree button {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .login .login-box {
+        margin-top: 20px;
+        padding-top: 95px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .profile .subscribe-list h4 {
+        font-size: 22px;
+    }
+
+    .profile .profile-form img.profile-pic {
+        width: 120px;
+        height: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .profile .profile-form h2 {
+        font-size: 28px;
+
+    }
+    .profile .banner {
+        height: 120px;
+    }
+    .profile .banner h3 {
+
+        font-size: 28px;
     }
 }
 

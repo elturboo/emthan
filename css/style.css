@@ -876,7 +876,8 @@ ul.sidebar li.active a {
 }
 
 .form-exam .question-list img.question-img {
-  height: 250px;
+  max-height: 250px;
+  width: 50%;
   margin-bottom: 20px;
 }
 
@@ -1363,6 +1364,80 @@ input[type=number] {
   }
   .profile .subscribe-form {
     padding: 20px 15px;
+  }
+  .form-exam .question-list video {
+    width: 100%;
+  }
+  .form-exam .question-list {
+    padding: 10px 10px;
+  }
+  .form-exam .question-list .degree {
+    position: absolute;
+    left: 10px;
+    top: -2px;
+    height: 55px;
+    width: 50px;
+  }
+  .form-exam .question-list .ques-list {
+    gap: 8px;
+    width: 83%;
+  }
+  .ans-row .col-sm-3 {
+    margin-bottom: 10px;
+  }
+  .form-exam .question-list .ans-row {
+    -webkit-padding-start: 47px;
+            padding-inline-start: 47px;
+  }
+  .form-exam .question-list img.question-img {
+    max-height: 250px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .form-exam .total-degree {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 190px;
+  }
+  .form-exam .total-degree h3 {
+    font-size: 22px;
+    line-height: 1.8;
+  }
+  .form-exam .total-degree button {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  .login .login-box {
+    margin-top: 20px;
+    padding-top: 95px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .profile .subscribe-list h4 {
+    font-size: 22px;
+  }
+  .profile .profile-form img.profile-pic {
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .profile .profile-form h2 {
+    font-size: 28px;
+  }
+  .profile .banner {
+    height: 120px;
+  }
+  .profile .banner h3 {
+    font-size: 28px;
   }
 }
 
