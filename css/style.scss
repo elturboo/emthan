@@ -105,10 +105,12 @@ nav {
     }
 
     .nav-link {
-        padding-left: 1.4rem !important;
-        padding-right: 1.4rem !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
         color: $mainColor;
         font-weight: 600;
+        margin-right: .4rem;
+        margin-right: .4rem;
     }
 
     .nav-link.active {
@@ -119,15 +121,59 @@ nav {
     .div-social {
         display: flex;
     }
+    a.login-btn {
+        background-color: $secColor;
+        border-color: $secColor;
+        border-radius: 25px;
+        color: #fff;
+        width: 150px;
+        text-align: center;
+        &:hover {
+            color: #fff;
+        }
+    }
+    a.subscribe-btn {
+        background-color: $thirdColor;
+        border-color: $thirdColor;
+        border-radius: 25px;
+        color: #fff;
+        width: 150px;
+        text-align: center;
+        &:hover {
+            color: #fff;
+        }
+    }
+  
+}
+.bottom-nav {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #fff6e9;
+    border-radius: 10px;
+    background: #fff6e9;
+    text-align: center;
+    li {
+        margin-left: 11px;
+        margin-right: 11px;
+        a {
+            color: $mainColor;
+            text-decoration: none;
+            @extend .transition;
+            &:hover {
+                color: $secColor;
+            }
+        }
+    }
 }
 
 // end nav
 
 // start slider
 .slider {
-    .carousel-item {
+    .carousel-item .right {
         border-radius: 35px;
-        border: 8px solid $secColor;
+        // border: 8px solid $secColor;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -176,6 +222,29 @@ nav {
 
         }
     }
+    .score {
+        width: 250px;
+        height: 250px;
+        border: 10px solid #8c45e0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        box-shadow: 0 0 9px 9px #dabcff;
+        background: $thirdColor;
+        color: #fff;
+        border-radius: 50%;
+        margin-top: 25%;
+        h5 {
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 60px;
+            font-weight: 700;
+        }
+    }
 }
 
 // end slider
@@ -208,7 +277,7 @@ nav {
 
 // start services
 .services {
-    margin-top: 60px;
+    margin-top: 100px;
     margin-bottom: 60px;
 
     & {
@@ -242,6 +311,9 @@ nav {
     .serv-box {
         height: 250px;
         display: block;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        text-align: center;
         margin-left: auto;
         margin-right: auto;
         border: 6px solid $secColor;
@@ -302,7 +374,7 @@ nav {
         font-size: 28px;
         font-weight: 700;
         line-height: 1.6;
-        margin-top: 70px;
+        margin-top: 20px;
         text-align: center;
 
     }
@@ -396,6 +468,113 @@ nav {
 }
 
 // end testimonials
+
+.contact {
+    .contact-box {
+        border-radius: 25px;
+        background: #f1eeff;
+        position: relative;
+        padding-top: 110px;
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-bottom: 30px;
+
+        .spc-badge {
+            width: 300px;
+            display: block;
+            position: absolute;
+            top: 20px;
+            right: -70px;
+            padding: 12px;
+            background: $secColor;
+            color: $mainColor;
+            font-weight: 700;
+            font-size: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+            border-radius: 25px;
+            margin-bottom: 15px;
+            background: #fff;
+            padding: 10px;
+            border: none;
+            text-align: right;
+            color: #333;
+
+            &::placeholder {
+                color: #999;
+            }
+        }
+        textarea {
+            width: 100%;
+            height: 150px;
+            resize: none;
+            border-radius: 25px;
+            margin-bottom: 15px;
+            background: #fff;
+            padding: 10px;
+            border: none;
+            text-align: right;
+            color: #333;
+
+            &::placeholder {
+                color: #999;
+            }
+        }
+
+        select {
+            width: 100%;
+            border-radius: 25px;
+            margin-bottom: 15px;
+            background: #fff;
+            padding: 6px 10px;
+            border: none;
+            text-align: right;
+            color: #999;
+
+        }
+
+        
+
+        button {
+            background: #8D2EFF;
+            border-radius: 25px;
+            color: #fff;
+            border: 4px solid $thirdColor;
+            width: 200px;
+            padding: 9px;
+            @extend .transition;
+
+            &:hover {
+                background: transparent;
+                color: #8D2EFF;
+            }
+        }
+    }
+}
+// end contact
+
+// whats-btn
+.whats-btn {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    z-index: 101;
+    img {
+
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        @extend .transition;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
 
 // start footer
 footer {
@@ -581,7 +760,7 @@ footer {
 
     .material-filter {
         margin-bottom: 30px;
-        padding: 0px 30px;
+        padding: 0px 20px;
         position: relative;
 
         .item button {
@@ -590,7 +769,7 @@ footer {
             color: $thirdColor;
             border: 2px solid $thirdColor;
             width: 100%;
-            padding: 9px 3px;
+            padding: 9px 2px;
             font-size: 14px;
             @extend .transition;
 
@@ -602,15 +781,8 @@ footer {
 
         .item.active button {
             background: $thirdColor;
-            border-radius: 25px;
             color: #fff;
             border: 2px solid $thirdColor;
-            width: 100%;
-            padding: 9px 3px;
-            font-size: 14px;
-            @extend .transition;
-
-
         }
 
     }
@@ -618,7 +790,7 @@ footer {
     .owl-carousel .owl-nav button.owl-next,
     .owl-carousel .owl-nav button.owl-prev,
     .owl-carousel button.owl-dot {
-        font-size: 50px;
+        font-size: 40px;
         color: $thirdColor;
     }
 
@@ -629,13 +801,13 @@ footer {
     }
 
     .owl-carousel .owl-nav .owl-next {
-        top: -25px;
+        top: -20px;
         position: absolute;
         left: 0px;
     }
 
     .owl-carousel .owl-nav .owl-prev {
-        top: -25px;
+        top: -20px;
         position: absolute;
         right: 0px;
     }
@@ -722,13 +894,11 @@ ul.sidebar {
     padding-right: 20px;
     border-radius: 25px;
     margin-bottom: 30px;
-    width: 80%;
     overflow-x: visible;
 
     li {
         padding: 10px;
         color: $mainColor;
-        width: 125%;
 
         a {
             color: $mainColor;
@@ -829,12 +999,12 @@ ul.sidebar {
 
         .degree {
             position: absolute;
-            left: 40px;
+            left: 30px;
             top: -2px;
-            height: 70px;
-            width: 70px;
-            background: $thirdColor;
-            color: #fff;
+            height: 50px;
+            width: 60px;
+            background: transparent;
+            color: $thirdColor;
             display: flex;
             flex-direction: column;
             border-radius: 0 0 5px 5px;
@@ -906,7 +1076,8 @@ ul.sidebar {
 
     .answer-true {
         .degree {
-            background: #3ACB10;
+            background: transparent;
+            color: #3ACB10;
         }
 
         input[type="radio"] {
@@ -917,7 +1088,8 @@ ul.sidebar {
 
     .answer-false {
         .degree {
-            background: #f00;
+            background: transparent;
+            color: #f00;
         }
 
         input[type="radio"] {
@@ -1278,19 +1450,32 @@ input[type=number] {
         justify-content: center;
     }
 
-    .slider .carousel-item .caption-box {
+    .slider .carousel-item .right .caption-box {
         padding-top: 30px;
-        padding-right: 10px;
-        padding-left: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
-    .slider .carousel-item .caption-box h3 {
+    .slider .carousel-item .right .caption-box h3{
         font-size: 23px;
     }
 
-    .slider .carousel-item img.left-img {
+    .slider .carousel-item .right img.left-img{
         height: 200px;
         margin-top: 20px;
+        display: none;
+    }
+    .slider .score {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 200px;
+        height: 200px;
+    }
+    .slider .carousel-item .row {
+        flex-direction: column-reverse !important;
+    }
+    .slider .carousel-item .right .caption-box button {
+        margin-bottom: 20px;
     }
 
     .services::after,
@@ -1474,6 +1659,49 @@ input[type=number] {
     .profile .banner h3 {
 
         font-size: 28px;
+    }
+    .exam .material-filter .item button {
+        font-size: 12px;
+    }
+
+    .services .serv-box {
+        height: 150px;
+        border: 3px solid #FFB347;
+        border-radius: 15px;
+        padding: 6px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .services .serv-box img {
+        height: 50px;
+    }
+    .services .serv-box h4 {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .services .serv-box a.arrow {
+        bottom: -16px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 16px;
+    
+    }
+    .slider {
+        margin-bottom: 40px;
+    }
+    .contact .contact-box {
+        border-radius: 15px;
+        padding-top: 100px;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+    }
+
+    .whats-btn img {
+        width: 40px;
+        height: 40px;
+      
     }
 }
 

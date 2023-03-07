@@ -1,12 +1,12 @@
 $('.material-filter').owlCarousel({
     loop:false,
-    margin:20,
+    margin:5,
     nav:true,
     rtl:true,
     dots:false,
     responsive:{
         0:{
-            items:2
+            items:3
         },
         600:{
             items:4
