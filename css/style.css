@@ -12,12 +12,11 @@
     ------------------------------------------------- */
 /*start my style */
 * {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Cairo', sans-serif;
+  font-family: "Cairo", sans-serif;
   overflow-x: hidden;
   position: relative;
 }
@@ -70,69 +69,56 @@ a {
   padding: 60px 0;
 }
 
-.transition, nav .social img, .bottom-nav li a, .slider .carousel-item .right .caption-box button, .services .serv-box a.arrow, .contact .contact-box button, .whats-btn img, footer .social img, .login .login-box button, .exam .material-filter .item button, .exam .exam-list-box button.main-btn, .exam .exam-list-box button.btn-sec, .exam .exam-list-box button.third-btn, .form-exam button.result, .form-exam .total-degree button, .profile .subscribe-list button, .profile .subscribe-form button.main-btn, .profile .subscribe-form button.sec-btn, .profile .profile-form button {
-  -webkit-transition: all ease-in-out 0.3s;
+.transition, .profile .profile-form button, .profile .subscribe-form button.sec-btn, .profile .subscribe-form button.main-btn, .profile .subscribe-list button, .form-exam .total-degree button, .form-exam button.result, .exam .exam-list-box button.third-btn, .exam .exam-list-box button.btn-sec, .exam .exam-list-box button.main-btn, .exam .material-filter .item button, .login .login-box button, footer .social img, .whats-btn img, .contact .contact-box button, .services .serv-box a.arrow, .slider .carousel-item .right .caption-box button, .bottom-nav li a, nav .social img {
   transition: all ease-in-out 0.3s;
 }
 
 nav a.navbar-brand {
   font-size: 24px;
   font-weight: 700;
-  color: #000B79;
+  color: #000b79;
 }
-
 nav .social img {
   height: 35px;
   margin-top: 10px;
 }
-
 nav .social img:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
-
 nav .nav-link {
   padding-left: 1rem !important;
   padding-right: 1rem !important;
-  color: #000B79;
+  color: #000b79;
   font-weight: 600;
-  margin-right: .4rem;
-  margin-right: .4rem;
+  margin-right: 0.4rem;
+  margin-right: 0.4rem;
 }
-
 nav .nav-link.active {
   border-radius: 25px;
-  border: 2px solid #FFB347;
+  border: 2px solid #ffb347;
 }
-
 nav .div-social {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 nav a.login-btn {
-  background-color: #FFB347;
-  border-color: #FFB347;
+  background-color: #ffb347;
+  border-color: #ffb347;
   border-radius: 25px;
   color: #fff;
   width: 150px;
   text-align: center;
 }
-
 nav a.login-btn:hover {
   color: #fff;
 }
-
 nav a.subscribe-btn {
-  background-color: #6829B3;
-  border-color: #6829B3;
+  background-color: #6829b3;
+  border-color: #6829b3;
   border-radius: 25px;
   color: #fff;
   width: 150px;
   text-align: center;
 }
-
 nav a.subscribe-btn:hover {
   color: #fff;
 }
@@ -146,19 +132,16 @@ nav a.subscribe-btn:hover {
   background: #fff6e9;
   text-align: center;
 }
-
 .bottom-nav li {
   margin-left: 11px;
   margin-right: 11px;
 }
-
 .bottom-nav li a {
-  color: #000B79;
+  color: #000b79;
   text-decoration: none;
 }
-
 .bottom-nav li a:hover {
-  color: #FFB347;
+  color: #ffb347;
 }
 
 .slider .carousel-item .right {
@@ -167,105 +150,77 @@ nav a.subscribe-btn:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .slider .carousel-item .right .caption-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-left: 50px;
   padding-right: 50px;
   height: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
 }
-
 .slider .carousel-item .right .caption-box h3 {
-  color: #000B79;
+  color: #000b79;
   font-size: 28px;
   font-weight: 700;
 }
-
 .slider .carousel-item .right .caption-box p {
   color: #000;
   font-size: 16px;
   line-height: 1.8;
   margin-top: 10px;
 }
-
 .slider .carousel-item .right .caption-box button {
-  background: #8D2EFF;
+  background: #8d2eff;
   border-radius: 25px;
   color: #fff;
-  border: 4px solid #6829B3;
+  border: 4px solid #6829b3;
   width: 200px;
   padding: 9px;
 }
-
 .slider .carousel-item .right .caption-box button:hover {
   background: transparent;
-  color: #8D2EFF;
+  color: #8d2eff;
 }
-
 .slider .carousel-item .right img.left-img {
   height: 415px;
   float: left;
 }
-
 .slider .score {
   width: 250px;
   height: 250px;
   border: 10px solid #8c45e0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-shadow: 0 0 9px 9px #dabcff;
-          box-shadow: 0 0 9px 9px #dabcff;
-  background: #6829B3;
+  align-items: center;
+  box-shadow: 0 0 9px 9px #dabcff;
+  background: #6829b3;
   color: #fff;
   border-radius: 50%;
   margin-top: 25%;
 }
-
 .slider .score h5 {
   margin-bottom: 10px;
 }
-
 .slider .score h2 {
   font-size: 60px;
   font-weight: 700;
 }
 
 .about h3 {
-  color: #000B79;
+  color: #000b79;
   font-size: 28px;
   font-weight: 700;
   line-height: 1.6;
 }
-
 .about p {
   color: #000;
   font-size: 16px;
   line-height: 1.8;
   margin-top: 10px;
 }
-
 .about img {
   width: 90%;
 }
@@ -274,11 +229,9 @@ nav a.subscribe-btn:hover {
   margin-top: 100px;
   margin-bottom: 60px;
 }
-
 .services {
   position: relative;
 }
-
 .services::before {
   content: "";
   position: absolute;
@@ -290,7 +243,6 @@ nav a.subscribe-btn:hover {
   width: 200px;
   border-radius: 25px 0 0 25px;
 }
-
 .services::after {
   content: "";
   position: absolute;
@@ -302,7 +254,6 @@ nav a.subscribe-btn:hover {
   width: 200px;
   border-radius: 0 25px 25px 0;
 }
-
 .services .serv-box {
   height: 250px;
   display: block;
@@ -311,36 +262,24 @@ nav a.subscribe-btn:hover {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  border: 6px solid #FFB347;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  border: 6px solid #ffb347;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   border-radius: 25px;
   padding: 20px;
   position: relative;
 }
-
 .services .serv-box img {
   height: 90px;
   margin-bottom: 20px;
 }
-
 .services .serv-box h4 {
-  color: #000B79;
+  color: #000b79;
   font-size: 22px;
   font-weight: 700;
 }
-
 .services .serv-box a.arrow {
   position: absolute;
   bottom: -25px;
@@ -352,31 +291,26 @@ nav a.subscribe-btn:hover {
   text-align: center;
   display: block;
   border-radius: 50px;
-  background: #FFB347;
+  background: #ffb347;
 }
-
 .services .serv-box a.arrow:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
 }
-
 .services .serv-box.center {
-  border-color: #6829B3;
+  border-color: #6829b3;
 }
-
 .services .serv-box.center a.arrow {
-  background: #6829B3;
+  background: #6829b3;
 }
 
 .testimonials h3 {
-  color: #000B79;
+  color: #000b79;
   font-size: 28px;
   font-weight: 700;
   line-height: 1.6;
   margin-top: 20px;
   text-align: center;
 }
-
 .testimonials p.title {
   color: #000;
   font-size: 16px;
@@ -389,42 +323,29 @@ nav a.subscribe-btn:hover {
   display: block;
   margin-bottom: 50px;
 }
-
 .testimonials img {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
-
 .testimonials .testi-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  justify-content: center;
+  align-items: flex-start;
   border-radius: 25px;
   background: #f1eeff;
   padding: 20px 40px;
   min-height: 200px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .testimonials .testi-box h4 {
-  color: #000B79;
+  color: #000b79;
   font-size: 24px;
   font-weight: 700;
   line-height: 1.6;
   text-align: center;
 }
-
 .testimonials .testi-box h4 span {
   font-size: 18px;
   color: #000;
@@ -432,24 +353,18 @@ nav a.subscribe-btn:hover {
           margin-inline-start: 40px;
   font-weight: 400;
 }
-
 .testimonials .testi-box p {
   color: #000;
   font-size: 16px;
   line-height: 1.8;
   margin-top: 10px;
 }
-
 .testimonials .carousel-indicators {
   bottom: -50px;
 }
-
 .testimonials .carousel-indicators button {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 auto;
-          flex: 0 1 auto;
+  box-sizing: content-box;
+  flex: 0 1 auto;
   width: 12px;
   height: 12px;
   border-radius: 25px;
@@ -458,17 +373,15 @@ nav a.subscribe-btn:hover {
   margin-right: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #FFB347 !important;
+  background-color: #ffb347 !important;
   background-clip: padding-box;
   border: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   opacity: 1;
-  -webkit-transition: opacity .6s ease;
-  transition: opacity .6s ease;
+  transition: opacity 0.6s ease;
   border: none;
 }
-
 .testimonials .carousel-indicators button.active {
   border: none;
   width: 50px;
@@ -484,7 +397,6 @@ nav a.subscribe-btn:hover {
   padding-left: 100px;
   padding-bottom: 30px;
 }
-
 .contact .contact-box .spc-badge {
   width: 300px;
   display: block;
@@ -492,14 +404,13 @@ nav a.subscribe-btn:hover {
   top: 20px;
   right: -70px;
   padding: 12px;
-  background: #FFB347;
-  color: #000B79;
+  background: #ffb347;
+  color: #000b79;
   font-weight: 700;
   font-size: 20px;
   border-radius: 10px;
   text-align: center;
 }
-
 .contact .contact-box input {
   width: 100%;
   border-radius: 25px;
@@ -510,23 +421,12 @@ nav a.subscribe-btn:hover {
   text-align: right;
   color: #333;
 }
-
-.contact .contact-box input::-webkit-input-placeholder {
+.contact .contact-box input::-moz-placeholder {
   color: #999;
 }
-
-.contact .contact-box input:-ms-input-placeholder {
-  color: #999;
-}
-
-.contact .contact-box input::-ms-input-placeholder {
-  color: #999;
-}
-
 .contact .contact-box input::placeholder {
   color: #999;
 }
-
 .contact .contact-box textarea {
   width: 100%;
   height: 150px;
@@ -539,23 +439,12 @@ nav a.subscribe-btn:hover {
   text-align: right;
   color: #333;
 }
-
-.contact .contact-box textarea::-webkit-input-placeholder {
+.contact .contact-box textarea::-moz-placeholder {
   color: #999;
 }
-
-.contact .contact-box textarea:-ms-input-placeholder {
-  color: #999;
-}
-
-.contact .contact-box textarea::-ms-input-placeholder {
-  color: #999;
-}
-
 .contact .contact-box textarea::placeholder {
   color: #999;
 }
-
 .contact .contact-box select {
   width: 100%;
   border-radius: 25px;
@@ -566,19 +455,17 @@ nav a.subscribe-btn:hover {
   text-align: right;
   color: #999;
 }
-
 .contact .contact-box button {
-  background: #8D2EFF;
+  background: #8d2eff;
   border-radius: 25px;
   color: #fff;
-  border: 4px solid #6829B3;
+  border: 4px solid #6829b3;
   width: 200px;
   padding: 9px;
 }
-
 .contact .contact-box button:hover {
   background: transparent;
-  color: #8D2EFF;
+  color: #8d2eff;
 }
 
 .whats-btn {
@@ -587,74 +474,60 @@ nav a.subscribe-btn:hover {
   bottom: 20px;
   z-index: 101;
 }
-
 .whats-btn img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
   border: 1px solid #fff;
 }
-
 .whats-btn img:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 footer {
   padding-top: 60px;
-  background: transparent linear-gradient(101deg, #701CD5 0%, #471780 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(101deg, #701cd5 0%, #471780 100%) 0% 0% no-repeat padding-box;
   color: #fff;
 }
-
 footer h2.logo {
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 40px;
 }
-
 footer h2.logo a {
   color: #fff;
 }
-
 footer p {
   font-size: 16px;
   line-height: 1.8;
   width: 50%;
-  opacity: .7;
+  opacity: 0.7;
 }
-
 footer h4 {
   margin-top: 40px;
   margin-bottom: 20px;
 }
-
 footer .social img {
   height: 35px;
   margin-top: -5px;
 }
-
 footer .social img:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
-
 footer ul.links a {
   color: #fff !important;
   font-size: 16px;
   padding-left: 30px;
 }
-
 footer ul.social {
   text-align: end;
 }
-
 footer .bottom-footer {
   padding: 13px 0;
   margin-top: 10px;
   text-align: center;
   background: #441181;
 }
-
 footer .bottom-footer h5 {
   margin: 0;
   font-size: 16px;
@@ -663,17 +536,14 @@ footer .bottom-footer h5 {
 .login {
   padding: 60px 0;
 }
-
 .login h3 {
-  color: #000B79;
+  color: #000b79;
   font-weight: 700;
   font-size: 26px;
 }
-
 .login h3 a {
-  color: #000B79;
+  color: #000b79;
 }
-
 .login .login-box {
   border-radius: 25px;
   background: #f1eeff;
@@ -683,7 +553,6 @@ footer .bottom-footer h5 {
   padding-left: 100px;
   padding-bottom: 30px;
 }
-
 .login .login-box .spc-badge {
   width: 300px;
   display: block;
@@ -691,14 +560,13 @@ footer .bottom-footer h5 {
   top: 20px;
   right: -70px;
   padding: 12px;
-  background: #FFB347;
-  color: #000B79;
+  background: #ffb347;
+  color: #000b79;
   font-weight: 700;
   font-size: 20px;
   border-radius: 10px;
   text-align: center;
 }
-
 .login .login-box input {
   width: 100%;
   border-radius: 25px;
@@ -709,23 +577,25 @@ footer .bottom-footer h5 {
   text-align: right;
   color: #333;
 }
-
-.login .login-box input::-webkit-input-placeholder {
+.login .login-box input::-moz-placeholder {
   color: #999;
 }
-
-.login .login-box input:-ms-input-placeholder {
-  color: #999;
-}
-
-.login .login-box input::-ms-input-placeholder {
-  color: #999;
-}
-
 .login .login-box input::placeholder {
   color: #999;
 }
-
+.login .login-box input[type=checkbox] {
+  width: unset;
+  border-radius: unset;
+  margin-bottom: unset;
+  background: unset;
+  padding: unset;
+  border: unset;
+  text-align: unset;
+  color: #333;
+}
+.login .login-box label {
+  color: #000b79;
+}
 .login .login-box select {
   width: 100%;
   border-radius: 25px;
@@ -736,9 +606,8 @@ footer .bottom-footer h5 {
   text-align: right;
   color: #999;
 }
-
 .login .login-box a.forget {
-  color: #000B79;
+  color: #000b79;
   display: block;
   text-align: end;
   font-weight: 700;
@@ -747,168 +616,152 @@ footer .bottom-footer h5 {
   -webkit-margin-end: 20px;
           margin-inline-end: 20px;
 }
-
 .login .login-box button {
-  background: #8D2EFF;
+  background: #8d2eff;
   border-radius: 25px;
   color: #fff;
-  border: 4px solid #6829B3;
+  border: 4px solid #6829b3;
   width: 200px;
   padding: 9px;
 }
-
 .login .login-box button:hover {
   background: transparent;
-  color: #8D2EFF;
+  color: #8d2eff;
 }
-
 .login .login-box a.register {
   display: block;
-  color: #000B79;
+  color: #000b79;
   font-size: 16px;
   font-weight: 400;
   text-align: center;
   margin-top: 20px;
 }
-
 .login .login-box a.register span {
-  color: #FFB347;
+  color: #ffb347;
   -webkit-margin-start: 10px;
           margin-inline-start: 10px;
   font-weight: 700;
+}
+.login .otp-box .inputs-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+.login .otp-box .inputs-box input.otp {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  border-radius: 5px;
 }
 
 .exam .banner {
   width: 100%;
   margin-bottom: 30px;
 }
-
 .exam .material-filter {
   margin-bottom: 30px;
   padding: 0px 20px;
   position: relative;
 }
-
 .exam .material-filter .item button {
   background: transparent;
   border-radius: 25px;
-  color: #6829B3;
-  border: 2px solid #6829B3;
+  color: #6829b3;
+  border: 2px solid #6829b3;
   width: 100%;
   padding: 9px 2px;
   font-size: 14px;
 }
-
 .exam .material-filter .item button:hover {
-  background: #6829B3;
+  background: #6829b3;
   color: #fff;
 }
-
 .exam .material-filter .item.active button {
-  background: #6829B3;
+  background: #6829b3;
   color: #fff;
-  border: 2px solid #6829B3;
+  border: 2px solid #6829b3;
 }
-
 .exam .owl-carousel .owl-nav button.owl-next,
 .exam .owl-carousel .owl-nav button.owl-prev,
 .exam .owl-carousel button.owl-dot {
   font-size: 40px;
-  color: #6829B3;
+  color: #6829b3;
 }
-
 .exam .owl-theme .owl-nav [class*=owl-]:hover {
   background: transparent;
-  color: #FFB347;
+  color: #ffb347;
   text-decoration: none;
 }
-
 .exam .owl-carousel .owl-nav .owl-next {
   top: -20px;
   position: absolute;
   left: 0px;
 }
-
 .exam .owl-carousel .owl-nav .owl-prev {
   top: -20px;
   position: absolute;
   right: 0px;
 }
-
 .exam .exam-list-box {
   padding: 20px;
-  border: 3px solid #E1E0E8;
+  border: 3px solid #e1e0e8;
   border-radius: 15px;
   margin-bottom: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 .exam .exam-list-box h5 {
   margin: 0;
   font-size: 20px;
-  color: #000B79;
+  color: #000b79;
 }
-
 .exam .exam-list-box i.fa-circle-check {
   font-size: 26px;
-  color: #3ACB10;
+  color: #3acb10;
 }
-
 .exam .exam-list-box span.spc-badge {
   padding: 4px 8px;
   background: #eee;
   color: #000;
   border-radius: 4px;
 }
-
 .exam .exam-list-box button.main-btn {
-  background: #6829B3;
+  background: #6829b3;
   border-radius: 25px;
   color: #fff;
-  border: 3px solid #6829B3;
+  border: 3px solid #6829b3;
   padding: 9px 30px;
   font-size: 16px;
 }
-
 .exam .exam-list-box button.main-btn:hover {
   background: transparent;
-  color: #6829B3;
+  color: #6829b3;
 }
-
 .exam .exam-list-box button.btn-sec {
   background: transparent;
   border-radius: 25px;
-  color: #6829B3;
-  border: 3px solid #FFB347;
+  color: #6829b3;
+  border: 3px solid #ffb347;
   padding: 9px 30px;
   font-size: 16px;
 }
-
 .exam .exam-list-box button.btn-sec:hover {
-  background: #FFB347;
+  background: #ffb347;
   color: #fff;
 }
-
 .exam .exam-list-box button.third-btn {
-  background: #FFB347;
+  background: #ffb347;
   border-radius: 25px;
   color: #fff;
-  border: 3px solid #FFB347;
+  border: 3px solid #ffb347;
   padding: 9px 30px;
   font-size: 16px;
 }
-
 .exam .exam-list-box button.third-btn:hover {
   background: transparent;
-  color: #FFB347;
+  color: #ffb347;
 }
 
 ul.sidebar {
@@ -921,23 +774,19 @@ ul.sidebar {
   margin-bottom: 30px;
   overflow-x: visible;
 }
-
 ul.sidebar li {
   padding: 10px;
-  color: #000B79;
+  color: #000b79;
 }
-
 ul.sidebar li a {
-  color: #000B79;
+  color: #000b79;
   font-size: 18px;
 }
-
 ul.sidebar li.active {
-  background: #FFB347;
+  background: #ffb347;
   color: #fff;
   border-radius: 10px;
 }
-
 ul.sidebar li.active a {
   color: #fff;
 }
@@ -945,10 +794,9 @@ ul.sidebar li.active a {
 .pagination {
   margin-top: 30px;
 }
-
 .pagination .page-link {
   border: none;
-  color: #000B79;
+  color: #000b79;
   border-radius: 50%;
   width: 30px;
   height: 30px;
@@ -959,9 +807,8 @@ ul.sidebar li.active a {
   margin-right: 5px;
   font-size: 20px;
 }
-
 .pagination .page-link.active {
-  background: #FFB347;
+  background: #ffb347;
 }
 
 .form-exam .banner {
@@ -969,62 +816,48 @@ ul.sidebar li.active a {
   margin-bottom: 30px;
   height: 160px;
   padding: 10px 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: #FFB347;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffb347;
   border: 7px solid #f7a026;
   border-radius: 25px;
 }
-
 .form-exam .banner h3 {
-  color: #000B79;
+  color: #000b79;
   font-weight: 700;
 }
-
 .form-exam .banner h5 {
   font-size: 18px;
-  color: #000B79;
+  color: #000b79;
 }
-
 .form-exam .banner img {
   height: 120px;
 }
-
 .form-exam .question-list {
-  border: 2px solid #E1E0E8;
+  border: 2px solid #e1e0e8;
   border-radius: 15px;
   padding: 15px 20px;
   margin-bottom: 20px;
   position: relative;
 }
-
 .form-exam .question-list span.number {
   width: 40px;
   height: 40px;
   line-height: 40px;
   text-align: center;
-  background: #6829B3;
+  background: #6829b3;
   color: #fff;
   border-radius: 50%;
   display: inline-block;
 }
-
 .form-exam .question-list .ques-list {
   gap: 20px;
   width: 90%;
 }
-
 .form-exam .question-list .ques-list p {
   line-height: 1.6;
 }
-
 .form-exam .question-list .degree {
   position: absolute;
   left: 30px;
@@ -1032,35 +865,23 @@ ul.sidebar li.active a {
   height: 50px;
   width: 60px;
   background: transparent;
-  color: #6829B3;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  color: #6829b3;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   border-radius: 0 0 5px 5px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .form-exam .question-list .degree h5 {
   font-weight: 700;
   font-size: 24px;
   margin: 0;
 }
-
 .form-exam .question-list .degree span {
   font-size: 14px;
 }
-
-.form-exam .question-list input[type="radio"] {
-  accent-color: #FFB347;
+.form-exam .question-list input[type=radio] {
+  accent-color: #ffb347;
   height: 18px;
   width: 18px;
   vertical-align: middle;
@@ -1068,30 +889,25 @@ ul.sidebar li.active a {
           margin-inline-end: 5px;
   cursor: pointer;
 }
-
 .form-exam .question-list label {
   cursor: pointer;
 }
-
 .form-exam .question-list .ans-row {
   -webkit-padding-start: 60px;
           padding-inline-start: 60px;
   margin-top: 15px;
 }
-
 .form-exam .question-list video {
   height: 250px;
   width: 450px;
 }
-
 .form-exam .question-list img.question-img {
   max-height: 250px;
   width: 50%;
   margin-bottom: 20px;
 }
-
 .form-exam button.result {
-  background: #6829B3;
+  background: #6829b3;
   border-radius: 25px;
   color: #fff;
   border: 3px solid #441181;
@@ -1103,69 +919,52 @@ ul.sidebar li.active a {
   margin-right: auto;
   display: block;
 }
-
 .form-exam button.result:hover {
   background: transparent;
-  color: #6829B3;
+  color: #6829b3;
 }
-
 .form-exam .answer-true .degree {
   background: transparent;
-  color: #3ACB10;
+  color: #3acb10;
 }
-
-.form-exam .answer-true input[type="radio"] {
-  accent-color: #3ACB10;
+.form-exam .answer-true input[type=radio] {
+  accent-color: #3acb10;
 }
-
 .form-exam .answer-false .degree {
   background: transparent;
   color: #f00;
 }
-
-.form-exam .answer-false input[type="radio"] {
+.form-exam .answer-false input[type=radio] {
   accent-color: #f00;
 }
-
 .form-exam .label-true {
-  color: #3ACB10;
+  color: #3acb10;
 }
-
 .form-exam .label-false {
   color: #f00;
 }
-
 .form-exam .total-degree {
   height: 140px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   border-radius: 25px;
   background: #f1eeff;
   padding: 20px 40px;
   margin-bottom: 30px;
 }
-
 .form-exam .total-degree h3 {
   margin: 0;
   font-size: 30px;
   color: #000;
 }
-
 .form-exam .total-degree h3 span {
   font-weight: 700;
   -webkit-margin-start: 20px;
           margin-inline-start: 20px;
 }
-
 .form-exam .total-degree button {
-  background: #6829B3;
+  background: #6829b3;
   border-radius: 25px;
   color: #fff;
   border: 3px solid #441181;
@@ -1174,10 +973,9 @@ ul.sidebar li.active a {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-
 .form-exam .total-degree button:hover {
   background: transparent;
-  color: #6829B3;
+  color: #6829b3;
 }
 
 .student-log .banner {
@@ -1185,22 +983,15 @@ ul.sidebar li.active a {
   margin-bottom: 30px;
   height: 160px;
   padding: 10px 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: #FFB347;
+  justify-content: center;
+  align-items: center;
+  background: #ffb347;
   border: 7px solid #f7a026;
   border-radius: 25px;
 }
-
 .student-log .banner h3 {
-  color: #000B79;
+  color: #000b79;
   font-weight: 700;
   margin: 0;
   font-size: 36px;
@@ -1211,59 +1002,42 @@ ul.sidebar li.active a {
   margin-bottom: 30px;
   height: 160px;
   padding: 10px 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: #FFB347;
+  justify-content: center;
+  align-items: center;
+  background: #ffb347;
   border: 7px solid #f7a026;
   border-radius: 25px;
 }
-
 .profile .banner h3 {
-  color: #000B79;
+  color: #000b79;
   font-weight: 700;
   margin: 0;
   font-size: 36px;
 }
-
 .profile .subscribe-list {
   padding: 20px;
   height: 120px;
-  border: 3px solid #E1E0E8;
+  border: 3px solid #e1e0e8;
   border-radius: 15px;
   margin-bottom: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 .profile .subscribe-list h4 {
-  color: #000B79;
+  color: #000b79;
   font-size: 26px;
 }
-
 .profile .subscribe-list h4 span {
-  color: #FFB347;
+  color: #ffb347;
   font-weight: 700;
   font-size: 36px;
   -webkit-margin-end: 20px;
           margin-inline-end: 20px;
 }
-
 .profile .subscribe-list button {
-  background: #6829B3;
+  background: #6829b3;
   border-radius: 25px;
   color: #fff;
   border: 3px solid #441181;
@@ -1272,40 +1046,34 @@ ul.sidebar li.active a {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-
 .profile .subscribe-list button:hover {
   background: transparent;
-  color: #6829B3;
+  color: #6829b3;
 }
-
 .profile .subscribe-form {
-  border: 3px solid #E1E0E8;
+  border: 3px solid #e1e0e8;
   padding: 20px 40px;
   border-radius: 15px;
   margin-bottom: 40px;
 }
-
 .profile .subscribe-form h4 {
-  color: #000B79;
+  color: #000b79;
   font-size: 26px;
   padding-bottom: 20px;
   border-bottom: 2px solid #ccc;
   margin-bottom: 30px;
 }
-
 .profile .subscribe-form h4 span {
-  color: #FFB347;
+  color: #ffb347;
   font-weight: 700;
   font-size: 36px;
   -webkit-margin-end: 20px;
           margin-inline-end: 20px;
 }
-
 .profile .subscribe-form img.payment {
   height: 40px;
   margin-bottom: 20px;
 }
-
 .profile .subscribe-form input {
   width: 100%;
   border: 1px solid #ccc;
@@ -1315,14 +1083,12 @@ ul.sidebar li.active a {
   text-align: right;
   margin-bottom: 20px;
 }
-
 .profile .subscribe-form label {
   color: #000;
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 14px;
 }
-
 .profile .subscribe-form select {
   width: 100%;
   border: 1px solid #ccc;
@@ -1331,9 +1097,8 @@ ul.sidebar li.active a {
   margin-bottom: 30px;
   border-radius: 5px;
 }
-
 .profile .subscribe-form button.main-btn {
-  background: #6829B3;
+  background: #6829b3;
   border-radius: 25px;
   color: #fff;
   width: 100%;
@@ -1343,14 +1108,12 @@ ul.sidebar li.active a {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 .profile .subscribe-form button.main-btn:hover {
   background: transparent;
-  color: #6829B3;
+  color: #6829b3;
 }
-
 .profile .subscribe-form button.sec-btn {
-  background: #FFB347;
+  background: #ffb347;
   border-radius: 25px;
   width: 100%;
   color: #fff;
@@ -1360,50 +1123,40 @@ ul.sidebar li.active a {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 .profile .subscribe-form button.sec-btn:hover {
   background: transparent;
-  color: #FFB347;
+  color: #ffb347;
 }
-
 .profile .profile-form {
-  border: 3px solid #E1E0E8;
+  border: 3px solid #e1e0e8;
   padding: 20px 40px;
   border-radius: 15px;
   margin-bottom: 40px;
 }
-
 .profile .profile-form img.profile-pic {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
-  -webkit-box-shadow: 0 0 9px #ccc;
-          box-shadow: 0 0 9px #ccc;
+  box-shadow: 0 0 9px #ccc;
 }
-
 .profile .profile-form ul.profile-list li {
   padding: 14px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .profile .profile-form ul.profile-list li i {
-  color: #FFB347;
+  color: #ffb347;
   -webkit-margin-end: 20px;
           margin-inline-end: 20px;
   font-size: 22px;
 }
-
 .profile .profile-form ul.profile-list li h4 {
   font-size: 20px;
   color: #000;
 }
-
 .profile .profile-form button {
-  background: #6829B3;
+  background: #6829b3;
   border-radius: 25px;
   color: #fff;
   width: 60%;
@@ -1413,12 +1166,10 @@ ul.sidebar li.active a {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 .profile .profile-form button:hover {
   background: transparent;
-  color: #6829B3;
+  color: #6829b3;
 }
-
 .profile .profile-form input {
   border: 1px solid #ccc;
   margin-bottom: 20px;
@@ -1427,14 +1178,12 @@ ul.sidebar li.active a {
   padding: 10px;
   width: 100%;
 }
-
 .profile .profile-form h2 {
-  color: #6829B3;
+  color: #6829b3;
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 20px;
 }
-
 .profile .profile-form p {
   font-size: 16px;
   line-height: 1.8;
@@ -1457,196 +1206,135 @@ input[type=number] {
 .tarteb {
   padding: 40px 0;
   padding-bottom: 0;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  justify-content: center;
+  align-items: flex-end;
   display: flex;
 }
-
 .tarteb .tarteb-col.first {
   text-align: center;
 }
-
 .tarteb .tarteb-col.first img.profile {
   width: 110px;
   height: 110px;
   border-radius: 50%;
-  border: 5px solid #FFB347;
+  border: 5px solid #ffb347;
   margin-bottom: 20px;
 }
-
 .tarteb .tarteb-col.first h4 {
   font-size: 18px;
   color: #777;
 }
-
 .tarteb .tarteb-col.first .tarteb-degree {
-  background: #924ECC;
+  background: #924ecc;
   margin-top: 20px;
   padding: 20px;
   color: #fff;
   height: 190px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   border-radius: 0 15px 0 0;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 180px;
 }
-
 .tarteb .tarteb-col.first .tarteb-degree h5 {
   font-size: 70px;
   font-weight: 700;
   padding-bottom: 15px;
   margin-bottom: 20px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
-
 .tarteb .tarteb-col.first .tarteb-degree p {
   font-size: 30px;
   font-weight: 700;
 }
-
 .tarteb .tarteb-col.second {
   text-align: center;
 }
-
 .tarteb .tarteb-col.second img.profile {
   width: 130px;
   height: 130px;
   border-radius: 50%;
-  border: 5px solid #6829B3;
+  border: 5px solid #6829b3;
   margin-bottom: 20px;
 }
-
 .tarteb .tarteb-col.second h4 {
   font-size: 18px;
 }
-
 .tarteb .tarteb-col.second .tarteb-degree {
-  background: #FFB347;
+  background: #ffb347;
   margin-top: 20px;
   padding: 20px;
   color: #fff;
   height: 320px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   border-radius: 15px 15px 0 0;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 200px;
 }
-
 .tarteb .tarteb-col.second .tarteb-degree h5 {
   font-size: 80px;
   font-weight: 700;
   padding-bottom: 15px;
   margin-bottom: 20px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
-
 .tarteb .tarteb-col.second .tarteb-degree p {
   font-size: 40px;
   font-weight: 700;
-  color: #6829B3;
+  color: #6829b3;
 }
-
 .tarteb .tarteb-col.third {
   text-align: center;
 }
-
 .tarteb .tarteb-col.third img.profile {
   width: 110px;
   height: 110px;
   border-radius: 50%;
-  border: 5px solid #FFB347;
+  border: 5px solid #ffb347;
   margin-bottom: 20px;
 }
-
 .tarteb .tarteb-col.third h4 {
   font-size: 18px;
   color: #777;
 }
-
 .tarteb .tarteb-col.third .tarteb-degree {
-  background: #6729B3;
+  background: #6729b3;
   margin-top: 20px;
   padding: 20px;
   color: #fff;
   height: 250px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   border-radius: 15px 0 0 0;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 180px;
 }
-
 .tarteb .tarteb-col.third .tarteb-degree h5 {
   font-size: 70px;
   font-weight: 700;
   padding-bottom: 15px;
   margin-bottom: 20px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
-
 .tarteb .tarteb-col.third .tarteb-degree p {
   font-size: 30px;
   font-weight: 700;
 }
 
 .tarteb-box {
-  background: #F7F6FD;
+  background: #f7f6fd;
   padding: 40px;
   border-radius: 20px;
 }
-
 .tarteb-box .tarteb-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   padding: 10px 20px;
   background: #fff;
   border: 2px solid #ccc;
@@ -1655,29 +1343,25 @@ input[type=number] {
   margin-bottom: 15px;
   margin-top: 15px;
 }
-
 .tarteb-box .tarteb-list h4 {
   font-size: 28px;
   font-weight: 700;
-  color: #6829B3;
+  color: #6829b3;
   margin: 0;
 }
-
 .tarteb-box .tarteb-list img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
 }
-
 .tarteb-box .tarteb-list h3 {
   margin: 0;
   color: #000;
   font-size: 22px;
 }
-
 .tarteb-box .tarteb-list h2 {
   margin: 0;
-  color: #FFB347;
+  color: #ffb347;
   font-weight: 700;
   font-size: 36px;
 }
@@ -1686,29 +1370,19 @@ input[type=number] {
   padding: 10px 40px 40px 40px;
   margin-top: 160px;
   border-radius: 20px;
-  background: #F7F6FD;
+  background: #f7f6fd;
   margin-bottom: 40px;
 }
-
 .rate h2 {
   width: 250px;
   height: 250px;
-  border: 14px solid #6829B3;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  border: 14px solid #6829b3;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   background: #8c45e0;
   color: #fff;
   border-radius: 50%;
@@ -1716,16 +1390,14 @@ input[type=number] {
   font-weight: 700;
   margin-top: -125px;
 }
-
 .rate h3 {
-  color: #FFB347;
+  color: #ffb347;
   font-size: 28px;
   font-weight: 700;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 .rate .rate-box {
   padding: 20px;
   border: 2px solid #ccc;
@@ -1734,70 +1406,55 @@ input[type=number] {
   margin-top: 30px;
   margin-bottom: 0px;
 }
-
 .rate .rate-box .numbers-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 .rate .rate-box .numbers-box h4 {
   font-weight: 700;
   font-size: 30px;
 }
-
 .rate .rate-box .numbers-box h4.main {
-  color: #6829B3;
+  color: #6829b3;
 }
-
 .rate .rate-box .numbers-box h4.sec {
-  color: #FFB347;
+  color: #ffb347;
 }
-
 .rate .rate-box .numbers-box h4.green {
-  color: #3ACB10;
+  color: #3acb10;
 }
-
 .rate .rate-box .numbers-box h4.red {
   color: #f00;
 }
-
 .rate .rate-box .numbers-box span {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: #FFB347;
+  background: #ffb347;
 }
-
 .rate h4.title {
   font-size: 32px;
-  color: #FFB347;
+  color: #ffb347;
   font-weight: 700;
   margin-bottom: 20px;
 }
-
 .rate .mwad {
   padding: 10px 0 40px 0;
 }
-
 .rate .mwad .mwad-box {
   margin-top: 25px;
   margin-bottom: 25px;
   text-align: center;
 }
-
 .rate .mwad .mwad-box h4 {
   width: 110px;
   height: 110px;
   line-height: 100px;
   text-align: center;
-  border: 5px solid #6829B3;
+  border: 5px solid #6829b3;
   margin-left: auto;
   margin-right: auto;
   background: #8c45e0;
@@ -1806,7 +1463,6 @@ input[type=number] {
   font-size: 30px;
   font-weight: 700;
 }
-
 .rate .mwad .mwad-box p {
   margin-top: 10px;
   font-size: 18px;
@@ -1819,10 +1475,10 @@ input[type=number] {
     font-size: 20px;
   }
   .navbar-toggler {
-    border-color: #000B79;
+    border-color: #000b79;
   }
   .navbar-toggler i {
-    color: #000B79;
+    color: #000b79;
   }
   .navbar {
     margin-bottom: 10px;
@@ -1831,12 +1487,8 @@ input[type=number] {
     padding-top: 5px;
   }
   .div-social {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
   .slider .carousel-item .right .caption-box {
     padding-top: 30px;
@@ -1858,10 +1510,7 @@ input[type=number] {
     height: 200px;
   }
   .slider .carousel-item .row {
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: reverse !important;
-        -ms-flex-direction: column-reverse !important;
-            flex-direction: column-reverse !important;
+    flex-direction: column-reverse !important;
   }
   .slider .carousel-item .right .caption-box button {
     margin-bottom: 20px;
@@ -1898,10 +1547,7 @@ input[type=number] {
     margin-bottom: 20px;
   }
   .testimonials .row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
   footer h2.logo {
     font-weight: 700;
@@ -1924,13 +1570,10 @@ input[type=number] {
     margin-top: 20px;
   }
   .exam .exam-list-box:has(.third-btn) {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     padding: 5px;
     gap: 10px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .exam .exam-list-box:has(.third-btn) h5 {
     font-size: 16px;
@@ -1980,14 +1623,9 @@ input[type=number] {
     margin-bottom: 20px;
   }
   .form-exam .total-degree {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     height: 190px;
   }
   .form-exam .total-degree h3 {
@@ -2029,7 +1667,7 @@ input[type=number] {
   }
   .services .serv-box {
     height: 150px;
-    border: 3px solid #FFB347;
+    border: 3px solid #ffb347;
     border-radius: 15px;
     padding: 6px;
     margin-bottom: 10px;
@@ -2079,13 +1717,13 @@ input[type=number] {
     width: 100px;
     height: 100px;
   }
-  .tarteb .tarteb-col.first img.profile, .tarteb .tarteb-col.third img.profile {
+  .tarteb .tarteb-col.first img.profile,
+  .tarteb .tarteb-col.third img.profile {
     width: 80px;
     height: 80px;
   }
   .tarteb-box .tarteb-list {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -2137,11 +1775,9 @@ input[type=number] {
     margin-bottom: 10px;
   }
 }
-
 /* galaxy S5 */
 /* iphone x, 6/7/8 */
 /* iphone 6/7/8 plus */
 /* ipad */
 /* ipad pro  */
-/* 17 inch */
-/*# sourceMappingURL=style.css.map */
+/* 17 inch *//*# sourceMappingURL=style.css.map */

@@ -111,24 +111,18 @@
               <h3><a href="index.html"> موقع نماذج امتحانات </a></h3>
             </div>
             <div class="col-sm-6">
-              <div class="login-box">
-                <span class="spc-badge">دخول</span>
-                <form action="">
-                  <input type="email" placeholder="البريد الالكتروني" />
-                  <input type="password" placeholder="كلمة المرور " />
-                  <div class="row">
-                    <div class="col-6">
-                      <input id="remember" type="checkbox" class="me-1" />
-                      <label for="remember">تذكرني</label>
-                    </div>
-                    <div class="col-6">
-                      <a class="forget" href="#">نسيت كلمة المرور؟</a>
-                    </div>
+              <div class="login-box otp-box">
+                <span class="spc-badge">رمز التأكيد</span>
+                <form class="otp-form" action="">
+                  <div class="inputs-box">
+                    <input type="number" maxlength="1" class="otp" />
+                    <input type="number" maxlength="1" class="otp" />
+                    <input type="number" maxlength="1" class="otp" />
+                    <input type="number" maxlength="1" class="otp" />
                   </div>
-
-                  <button class="w-100 mt-3">دخول</button>
+                  <button class="w-100 mt-3">تأكيد</button>
                   <a class="register" href="register.html"
-                    >ليس لديك حساب ؟ <span>تسجيل</span></a
+                    >لم يتم الارسال ؟ <span>ارسل مرة اخري</span></a
                   >
                 </form>
               </div>
