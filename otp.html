@@ -53,10 +53,7 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
               <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="index.html"
+                  <a class="nav-link" aria-current="page" href="index.html"
                     >الرئيسية</a
                   >
                 </li>
@@ -70,7 +67,7 @@
                   <a class="nav-link" href="#">سجل الاختبارات</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="login.html">التسجيل</a>
+                  <a class="nav-link active" href="#">التسجيل</a>
                 </li>
               </ul>
               <div class="div-social">
@@ -104,105 +101,36 @@
 
       <!-- end header -->
 
-      <!-- start exam -->
-      <section class="exam">
+      <!-- start login -->
+      <section class="login">
         <div class="container">
-          <img src="./images/banners/exam-banner.jpg" class="banner" alt="" />
-
-          <div
-            class="material-filter owl-carousel owl-theme d-flex justify-content-center"
-          >
-            <!-- lop from here -->
-            <div class="item"><button>التجويد</button></div>
-            <!-- to here -->
-            <div class="item active"><button>الدراسات الاسلامية</button></div>
-            <div class="item"><button>اللغة العربية</button></div>
-            <div class="item"><button>الرياضيات</button></div>
-            <div class="item"><button>العلوم</button></div>
-            <div class="item"><button>اللغة الانجليزية</button></div>
-            <div class="item"><button>التربية الفنية</button></div>
-            <div class="item"><button>الرياضيات</button></div>
-            <div class="item"><button>العلوم</button></div>
-            <div class="item"><button>اللغة الانجليزية</button></div>
-            <div class="item"><button>التربية الفنية</button></div>
-          </div>
-
-          <!-- start content -->
-          <div class="row">
-            <div class="col-sm-3">
-              <ul class="sidebar list-unstyled">
-                <li class="active">اسم الوحدة</li>
-                <li><a href="#"> اسم الوحدة </a></li>
-                <li><a href="#"> اسم الوحدة </a></li>
-                <li><a href="#"> اسم الوحدة </a></li>
-                <li><a href="#"> اسم الوحدة </a></li>
-                <li><a href="#"> اسم الوحدة </a></li>
-                <li><a href="#"> اسم الوحدة </a></li>
-                <li><a href="#"> اسم الوحدة </a></li>
-                <li><a href="#"> اختبارات شاملة </a></li>
-              </ul>
+          <div class="row align-items-center">
+            <div
+              class="col-sm-6 d-flex align-items-center justify-content-center"
+            >
+              <h3><a href="index.html"> موقع نماذج امتحانات </a></h3>
             </div>
-            <div class="col-sm-9">
-              <div class="exam-list-box">
-                <h5>اسم الدرس</h5>
-                <i class="fa-solid fa-circle-check"></i>
-                <span class="spc-badge">النتيجة 80%</span>
-                <button class="btn-sec">نموذج الاجابة</button>
-
-                <button
-                  class="third-btn"
-                  type="button"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                >
-                  اعد الاختبار
-                </button>
+            <div class="col-sm-6">
+              <div class="login-box otp-box">
+                <span class="spc-badge">رمز التأكيد</span>
+                <form class="otp-form" action="">
+                  <div class="inputs-box">
+                    <input type="number" maxlength="1" class="otp" />
+                    <input type="number" maxlength="1" class="otp" />
+                    <input type="number" maxlength="1" class="otp" />
+                    <input type="number" maxlength="1" class="otp" />
+                  </div>
+                  <button class="w-100 mt-3">تأكيد</button>
+                  <a class="register" href="register.html"
+                    >لم يتم الارسال ؟ <span>ارسل مرة اخري</span></a
+                  >
+                </form>
               </div>
-              <div class="exam-list-box">
-                <h5>اسم الدرس</h5>
-                <button class="main-btn">ابدا الان</button>
-              </div>
-              <div class="exam-list-box">
-                <h5>اسم الدرس</h5>
-                <button class="main-btn">ابدا الان</button>
-              </div>
-              <div class="exam-list-box">
-                <h5>اسم الدرس</h5>
-                <button class="main-btn">ابدا الان</button>
-              </div>
-              <div class="exam-list-box">
-                <h5>اسم الدرس</h5>
-                <button class="main-btn">ابدا الان</button>
-              </div>
-              <div class="exam-list-box">
-                <h5>اسم الدرس</h5>
-                <button class="main-btn">ابدا الان</button>
-              </div>
-
-              <nav aria-label="Page navigation example ">
-                <ul class="pagination justify-content-center">
-                  <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Previous">
-                      <span aria-hidden="true">&laquo;</span>
-                    </a>
-                  </li>
-                  <li class="page-item">
-                    <a class="page-link active" href="#">1</a>
-                  </li>
-                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                  <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Next">
-                      <span aria-hidden="true">&raquo;</span>
-                    </a>
-                  </li>
-                </ul>
-              </nav>
             </div>
           </div>
         </div>
       </section>
-      <!-- end exam -->
+      <!-- end login -->
 
       <!-- start footer -->
       <footer>
@@ -259,40 +187,6 @@
       </footer>
       <!-- end footer -->
     </main>
-
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">...</div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <!--  Bootstrap-->
     <script src="./js/popper.min.js"></script>
