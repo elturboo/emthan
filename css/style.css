@@ -69,7 +69,7 @@ a {
   padding: 60px 0;
 }
 
-.transition, .profile .profile-form button, .profile .subscribe-form button.sec-btn, .profile .subscribe-form button.main-btn, .profile .subscribe-list button, .form-exam .total-degree button, .form-exam button.result, .exam .exam-list-box button.third-btn, .exam .exam-list-box button.btn-sec, .exam .exam-list-box button.main-btn, .exam .material-filter .item button, .login .login-box button, footer .social img, .whats-btn img, .contact .contact-box button, .services .serv-box a.arrow, .slider .carousel-item .right .caption-box button, .bottom-nav li a, nav .social img {
+.transition, .profile .profile-form button, .profile .subscribe-form button.sec-btn, .profile .subscribe-form button.main-btn, .profile .subscribe-list button, .form-exam .total-degree button, .form-exam button.result, .exam .exam-list-box button.third-btn, .exam .exam-list-box button.btn-sec, .exam .exam-list-box button.main-btn, .exam .material-filter .item button, .login .login-box button, footer .social img, .whats-btn img, .contact .contact-box button, .services .serv-box a.arrow, .bottom-nav li a, nav .social img {
   transition: all ease-in-out 0.3s;
 }
 
@@ -144,46 +144,10 @@ nav a.subscribe-btn:hover {
   color: #ffb347;
 }
 
-.slider .carousel-item .right {
-  border-radius: 35px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.slider .carousel-item .right .caption-box {
-  display: flex;
-  padding-left: 50px;
-  padding-right: 50px;
-  height: 100%;
-  justify-content: center;
-  flex-direction: column;
-}
-.slider .carousel-item .right .caption-box h3 {
-  color: #000b79;
-  font-size: 28px;
-  font-weight: 700;
-}
-.slider .carousel-item .right .caption-box p {
-  color: #000;
-  font-size: 16px;
-  line-height: 1.8;
-  margin-top: 10px;
-}
-.slider .carousel-item .right .caption-box button {
-  background: #8d2eff;
-  border-radius: 25px;
-  color: #fff;
-  border: 4px solid #6829b3;
-  width: 200px;
-  padding: 9px;
-}
-.slider .carousel-item .right .caption-box button:hover {
-  background: transparent;
-  color: #8d2eff;
-}
-.slider .carousel-item .right img.left-img {
-  height: 415px;
-  float: left;
+.slider .carousel-item img {
+  height: 410px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .slider .score {
   width: 250px;
@@ -323,11 +287,19 @@ nav a.subscribe-btn:hover {
   display: block;
   margin-bottom: 50px;
 }
-.testimonials img {
+.testimonials img.img-fluid {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+.testimonials img.person-img {
+  width: 65px;
+  height: 65px;
+  border: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-inline-end: 1rem;
 }
 .testimonials .testi-box {
   display: flex;
@@ -348,10 +320,10 @@ nav a.subscribe-btn:hover {
 }
 .testimonials .testi-box h4 span {
   font-size: 18px;
-  color: #000;
-  -webkit-margin-start: 40px;
-          margin-inline-start: 40px;
+  color: #8a8989;
+  margin-inline-start: 0px;
   font-weight: 400;
+  display: block;
 }
 .testimonials .testi-box p {
   color: #000;
@@ -613,8 +585,7 @@ footer .bottom-footer h5 {
   font-weight: 700;
   font-size: 14px;
   margin-top: 0px;
-  -webkit-margin-end: 20px;
-          margin-inline-end: 20px;
+  margin-inline-end: 20px;
 }
 .login .login-box button {
   background: #8d2eff;
@@ -638,8 +609,7 @@ footer .bottom-footer h5 {
 }
 .login .login-box a.register span {
   color: #ffb347;
-  -webkit-margin-start: 10px;
-          margin-inline-start: 10px;
+  margin-inline-start: 10px;
   font-weight: 700;
 }
 .login .otp-box .inputs-box {
@@ -885,16 +855,14 @@ ul.sidebar li.active a {
   height: 18px;
   width: 18px;
   vertical-align: middle;
-  -webkit-margin-end: 5px;
-          margin-inline-end: 5px;
+  margin-inline-end: 5px;
   cursor: pointer;
 }
 .form-exam .question-list label {
   cursor: pointer;
 }
 .form-exam .question-list .ans-row {
-  -webkit-padding-start: 60px;
-          padding-inline-start: 60px;
+  padding-inline-start: 60px;
   margin-top: 15px;
 }
 .form-exam .question-list video {
@@ -960,8 +928,7 @@ ul.sidebar li.active a {
 }
 .form-exam .total-degree h3 span {
   font-weight: 700;
-  -webkit-margin-start: 20px;
-          margin-inline-start: 20px;
+  margin-inline-start: 20px;
 }
 .form-exam .total-degree button {
   background: #6829b3;
@@ -1033,8 +1000,7 @@ ul.sidebar li.active a {
   color: #ffb347;
   font-weight: 700;
   font-size: 36px;
-  -webkit-margin-end: 20px;
-          margin-inline-end: 20px;
+  margin-inline-end: 20px;
 }
 .profile .subscribe-list button {
   background: #6829b3;
@@ -1067,8 +1033,7 @@ ul.sidebar li.active a {
   color: #ffb347;
   font-weight: 700;
   font-size: 36px;
-  -webkit-margin-end: 20px;
-          margin-inline-end: 20px;
+  margin-inline-end: 20px;
 }
 .profile .subscribe-form img.payment {
   height: 40px;
@@ -1147,8 +1112,7 @@ ul.sidebar li.active a {
 }
 .profile .profile-form ul.profile-list li i {
   color: #ffb347;
-  -webkit-margin-end: 20px;
-          margin-inline-end: 20px;
+  margin-inline-end: 20px;
   font-size: 22px;
 }
 .profile .profile-form ul.profile-list li h4 {
@@ -1547,10 +1511,9 @@ input[type=number] {
     padding: 20px;
   }
   .testimonials .testi-box h4 span {
-    -webkit-margin-start: 20px;
-            margin-inline-start: 20px;
+    margin-inline-start: 20px;
   }
-  .testimonials img {
+  .testimonials img.img-fluid {
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -1592,8 +1555,7 @@ input[type=number] {
   .exam .exam-list-box:has(.third-btn) button {
     padding: 8px 27px !important;
     margin-top: 5px;
-    -webkit-margin-start: 5px;
-            margin-inline-start: 5px;
+    margin-inline-start: 5px;
   }
   .form-exam .banner img {
     height: 52px;
@@ -1622,8 +1584,7 @@ input[type=number] {
     margin-bottom: 10px;
   }
   .form-exam .question-list .ans-row {
-    -webkit-padding-start: 47px;
-            padding-inline-start: 47px;
+    padding-inline-start: 47px;
   }
   .form-exam .question-list img.question-img {
     max-height: 250px;
@@ -1781,6 +1742,11 @@ input[type=number] {
   .rate .rate-box .numbers-box {
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+  .slider .carousel-item img {
+    height: 180px;
+    -o-object-fit: unset;
+       object-fit: unset;
   }
 }
 /* galaxy S5 */
